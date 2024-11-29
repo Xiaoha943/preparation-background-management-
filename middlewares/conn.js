@@ -5,7 +5,7 @@
  */
 const { Promise } = require('bluebird')
 const mysql = require('mysql') //引入数据库模块
-const databaseConfig = require('./data.config') //引入数据库配置模块中的数据
+const databaseConfig = require('./config') //引入数据库配置模块中的数据
 
 module.exports = {
   query: function (sql, params) {
